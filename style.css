@@ -100,4 +100,133 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.content .profile {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1.5rem 0.5rem 0 0.5rem;
+}
+
+.content .profile .profilePhoto {
+  width: 140px;
+  height: 160px;
+}
+
+.content .profile .name {
+  margin-top: 15px;
+  color: #4e93aa;
+  font-size: 12px;
+}
+
+.content .profile .status {
+  margin-top: 6px;
+  color: #979797;
+  font-size: 12px;
+}
+
+.content .profile .city {
+  color: #979797;
+  font-size: 12px;
+}
+
+.content .divider {
+  border: 1px solid #eaeaec;
+  margin: 0.5rem 0;
+}
+
+.content .profile .addFriends {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.content .profile .editProfile {
+  margin-right: 5px;
+}
+
+.content .profile .addFriendsInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .profile .addFriendsInfo span {
+  color: #4e93aa;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.content .profile span {
+  color: #4e93aa;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.content .profile .buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .profile .buttons button {
+  border: 1px solid #dde9f8;
+  background: #eff9ff;
+  color: #535c69;
+  border-radius: 2px 2px 0px 0px;
+  padding: 0.1rem;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: start;
+  align-items: center;
+  display: flex;
+}
+
+.content .profile .buttons button img {
+  margin-right: 8px;
+}
+
+.content .profileInfo {
+  width: 100%;
+  max-width: 560px;
+  background-color: #ffffff;
+  border-radius: 5px 50px 5px 5px;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.content .profileInfo p {
+  color: #000000;
+  font-size: 26px;
+}
+
+.content .profileInfo .profileStatus {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.content .profileInfo .profileStatus div {
+  color: #535C69;
+  font-size: 10px;
+}
+
+.content .profileInfo .profileStatus div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .profileInfo .profileStatus div > div img {
+  margin-right: 5px;
+}
+
+.content .profileInfo .profileStatus div > span {
+  color: #535C69;
+  font-size: 12px;
+}
+
+.content .profileInfo .profileStatus .reliable .reliableCount img,
+.content .profileInfo .profileStatus .cool .coolCount img,
+.content .profileInfo .profileStatus .sexy .sexyCount img {
+  margin-right: 0;
 }
