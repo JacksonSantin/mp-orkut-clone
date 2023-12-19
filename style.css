@@ -98,7 +98,7 @@ body {
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   margin-top: 1rem;
 }
@@ -107,6 +107,8 @@ body {
   background-color: #ffffff;
   border-radius: 5px;
   padding: 1.5rem 0.5rem 0 0.5rem;
+  margin-left: 11rem;
+  box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
 }
 
 .content .profile .profilePhoto {
@@ -190,7 +192,8 @@ body {
   max-width: 560px;
   background-color: #ffffff;
   border-radius: 5px 50px 5px 5px;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 0.2rem 1rem;
+  box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
 }
 
 .content .profileInfo p {
@@ -206,7 +209,7 @@ body {
 }
 
 .content .profileInfo .profileStatus div {
-  color: #535C69;
+  color: #535c69;
   font-size: 10px;
 }
 
@@ -221,7 +224,7 @@ body {
 }
 
 .content .profileInfo .profileStatus div > span {
-  color: #535C69;
+  color: #535c69;
   font-size: 12px;
 }
 
@@ -229,4 +232,135 @@ body {
 .content .profileInfo .profileStatus .cool .coolCount img,
 .content .profileInfo .profileStatus .sexy .sexyCount img {
   margin-right: 0;
+}
+
+.content .profileInfo .tab {
+  background: linear-gradient(
+    180deg,
+    #517fc5 13.02%,
+    rgba(81, 127, 197, 0.75) 30.73%,
+    rgba(81, 127, 197, 0.75) 82.81%,
+    #517fc5 96.35%
+  );
+  width: 12%;
+  text-align: center;
+  border-radius: 7px 7px 0px 0px;
+  font-weight: 700;
+  padding: 0.4rem 0.3rem;
+  color: #ffffff;
+}
+
+.content .profileInfo .dividerTab {
+  border: 1px solid #b5b7bb;
+  margin: 0 0 0.5rem 0;
+}
+
+.content .profileInfo .table .bg-01 {
+  background-color: #deeefd;
+}
+
+.content .profileInfo .table .bg-02 {
+  background-color: #eef8fe;
+}
+
+.content .profileInfo .table .bg-01,
+.content .profileInfo .table .bg-02 {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 2rem;
+}
+
+.content .profileInfo .table .bg-01 p,
+.content .profileInfo .table .bg-02 p {
+  font-size: 12px;
+  color: #72777f;
+  margin-right: 5px;
+  text-align: end;
+}
+
+.content .friends .titleSection span,
+.content .community .titleSection span {
+  color: #4e93aa;
+}
+
+.content .community .titleSection,
+.content .friends .titleSection {
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+
+.content .friends {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 11rem;
+  box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+}
+
+.content .friends .friendsList .friendsListOne,
+.content .friends .friendsList .friendsListTwo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.content .friends .friendsList .friendsListOne div,
+.content .friends .friendsList .friendsListTwo div {
+  background-color: #f0f0f0;
+  height: 140px;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content .friends .friendsList .friendsListOne div img,
+.content .friends .friendsList .friendsListTwo div img {
+  width: 100%;
+}
+
+.content .friends .friendsList .friendsListOne div p,
+.content .friends .friendsList .friendsListTwo div p {
+  text-align: center;
+  color: #4e93aa;
+  font-size: 12px;
+}
+
+.content .friends .friendsList .friendsListTwo {
+  margin-top: 0.5rem;
+}
+
+.content .community {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 11rem;
+  margin-top: 1rem;
+  box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+}
+
+.content .community .communitysList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.3rem;
+}
+
+.content .community .communitysList div {
+  background-color: #f0f0f0;
+  height: 140px;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content .community .communitysList div img {
+  width: 100%;
+}
+
+.content .community .communitysList div p {
+  text-align: center;
+  color: #4e93aa;
+  font-size: 12px;
 }
